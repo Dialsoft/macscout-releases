@@ -63,7 +63,7 @@ SHA-256: `D2FC3BC8D38F5FE6CC45B5F1079159F80B772A9E8BA56CFFE3B3D87E49330A97` (che
 **How it was made**
 - Designed by **Marc Frega** (Dialsoft LLC, theITguy.com) for the car-dealer networks his team looks after.
 - Programmed with **Claude** by Anthropic.
-- About 13,800 lines of code in 43 files, with every file commented.
+- About 13,900 lines of code in 44 files, with every file commented.
 
 ## Files here
 
