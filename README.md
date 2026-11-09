@@ -6,11 +6,11 @@ By Dialsoft LLC ([dialsoft.com](https://dialsoft.com)), for IT technicians.
 
 ## Download
 
-### [⬇ Download MAC Scout 1.8.5](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
+### [⬇ Download MAC Scout 1.8.6](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
 
-Version 1.8.5 · released November 8, 2026 · 3.6 MB · portable, nothing to install · updates itself
+Version 1.8.6 · released November 9, 2026 · 3.6 MB · portable, nothing to install · updates itself
 
-SHA-256: `3C438EA363BD63102B3F787746D9A58A5136794ABCBF4A8BE4332742FB4D3B6B` (check with `Get-FileHash MacScout.exe` in PowerShell)
+SHA-256: `1FDE6663D8A813302C1EB515D9DE84CC6388FFB04084B1D4BD436209EABFAAFE` (check with `Get-FileHash MacScout.exe` in PowerShell)
 
 ## System requirements
 
@@ -24,12 +24,9 @@ SHA-256: `3C438EA363BD63102B3F787746D9A58A5136794ABCBF4A8BE4332742FB4D3B6B` (che
 2. **Scan.** Choose the addresses to scan (your own network is a good start) and press **Scan**. Every device appears with its IP, MAC address, manufacturer and type. A guided tour shows you around on the first start.
 3. **It stays current.** MAC Scout checks this page a few seconds after it starts and every 6 hours. It downloads new versions in the background, checks their SHA-256 fingerprint, and installs them when you close it. You can switch this off in Preferences > Updates.
 
-## What's new in 1.8.5
+## What's new in 1.8.6
 
-- **Search is now always there:** a search box sits above the device list. Type part of a name, IP address or MAC address and the list shrinks as you type; MAC addresses match in any format (5c3a, 5C-3A-45, 5c:3a:45). It searches every column by default, or pick one column next to it.
-- Shows how many devices match ("3 of 19 devices"), and when other location tabs also have matches it says so ("Also in: Store B (2)") - click to jump to that tab with the same search.
-- **Fixed:** searching for a short piece of a MAC address in another format (like 5c3a for 5C-3A-...) found nothing; MAC searches now match from 2 characters in any format.
-- Ctrl+F puts the cursor in the search box; Esc clears it. Find next (F3) still jumps from match to match without hiding the others.
+- **This computer:** a new box under Method shows the computer MAC Scout runs on - the network interface in use (Ethernet or Wi-Fi, with link speed), its IP address and subnet (DHCP or static), MAC address, default gateway and DNS servers. Click any value to copy it; hover for every detail including other connected adapters; right-click to copy everything. It updates by itself when the network changes (cable unplugged, Wi-Fi switched, VPN connected).
 
 [All release notes](RELEASE_NOTES.md)
 

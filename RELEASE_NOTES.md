@@ -2,6 +2,10 @@
 
 Every version of MAC Scout and what changed. Download the latest: [MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
 
+## 1.8.6
+
+- **This computer:** a new box under Method shows the computer MAC Scout runs on - the network interface in use (Ethernet or Wi-Fi, with link speed), its IP address and subnet (DHCP or static), MAC address, default gateway and DNS servers. Click any value to copy it; hover for every detail including other connected adapters; right-click to copy everything. It updates by itself when the network changes (cable unplugged, Wi-Fi switched, VPN connected).
+
 ## 1.8.5
 
 - **Search is now always there:** a search box sits above the device list. Type part of a name, IP address or MAC address and the list shrinks as you type; MAC addresses match in any format (5c3a, 5C-3A-45, 5c:3a:45). It searches every column by default, or pick one column next to it.
