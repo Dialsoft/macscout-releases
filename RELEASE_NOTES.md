@@ -2,6 +2,10 @@
 
 Every version of MAC Scout and what changed. Download the latest: [MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
 
+## 1.8.7
+
+- **American spelling throughout:** color, gray, license, center, favorite, canceled and so on, in every window, tooltip, message, the release notes, the user manual and the credits page.
+
 ## 1.8.6
 
 - **This computer:** a new box under Method shows the computer MAC Scout runs on - the network interface in use (Ethernet or Wi-Fi, with link speed), its IP address and subnet (DHCP or static), MAC address, default gateway and DNS servers. Click any value to copy it; hover for every detail including other connected adapters; right-click to copy everything. It updates by itself when the network changes (cable unplugged, Wi-Fi switched, VPN connected).
@@ -44,26 +48,26 @@ Every version of MAC Scout and what changed. Download the latest: [MacScout.exe]
 
 ## 1.7.0
 
-- Built-in SSH client (Tools > SSH, or right-click a device > Network tools > ssh): password, keyboard-interactive or key-file login, colour xterm terminal that resizes with the window, full-screen programs (top, nano, less), copy/paste. The first connection shows the device fingerprint to trust; a changed fingerprint gets a clear warning. User names are remembered per device; passwords are never saved.
+- Built-in SSH client (Tools > SSH, or right-click a device > Network tools > ssh): password, keyboard-interactive or key-file login, color xterm terminal that resizes with the window, full-screen programs (top, nano, less), copy/paste. The first connection shows the device fingerprint to trust; a changed fingerprint gets a clear warning. User names are remembered per device; passwords are never saved.
 - **Choose the browser for web pages:** Preferences > Browser (any installed browser or another program, with optional extra options such as --incognito), or quickly from Open as > Open web pages with.
 - **Credits updated:** SSH.NET (MIT) is built in.
 
 ## 1.6.2
 
-- **Help > Credits & licenses:** every third-party component, data source and standard MAC Scout uses, with the full licence texts. Also linked from the About box.
+- **Help > Credits & licenses:** every third-party component, data source and standard MAC Scout uses, with the full license texts. Also linked from the About box.
 - Copyright now shown as Dialsoft LLC.
 - **Source code:** every file has a header, and classes, methods and the tricky parts (network protocols, terminal, scanner threads) are now commented throughout.
 
 ## 1.6.1
 
 - **Ping window redesigned:** status tiles (online / no reply and for how long, last reply, average, packet loss), a reply-time graph with a scale, and a reply list with icons. Options open in a panel under the address bar and apply while pinging.
-- **Telnet:** new BBS mode (Type: BBS) - CP437 characters, DOS colours, blinking text, fixed 80 x 25 screen, and ANSI art drawn cell-perfect (blocks, shading and box lines join with no gaps). Tells the BBS it is an ANSI terminal; Enter sends a plain CR. The choice is remembered.
+- **Telnet:** new BBS mode (Type: BBS) - CP437 characters, DOS colors, blinking text, fixed 80 x 25 screen, and ANSI art drawn cell-perfect (blocks, shading and box lines join with no gaps). Tells the BBS it is an ANSI terminal; Enter sends a plain CR. The choice is remembered.
 - **Telnet:** box and block characters are drawn the same cell-perfect way in network-device mode too.
 
 ## 1.6.0
 
 - **Built-in Ping window:** no command prompt or ping.exe needed. Runs until stopped (or a set count), live reply-time graph, lost replies in red, totals, Copy.
-- **Built-in Telnet window:** no telnet.exe needed (it is not installed on Windows by default). VT100 terminal with colours and menus, copy/paste, scroll-back. Clear messages when a port is closed or blocked, so it also works as a port tester (any port).
+- **Built-in Telnet window:** no telnet.exe needed (it is not installed on Windows by default). VT100 terminal with colors and menus, copy/paste, scroll-back. Clear messages when a port is closed or blocked, so it also works as a port tester (any port).
 - Network tools > ping and telnet now open these windows; also on the Tools tab (Built-in > Ping / Telnet). Existing tool lists are updated automatically.
 
 ## 1.5.8

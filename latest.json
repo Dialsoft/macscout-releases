@@ -1,8 +1,8 @@
 {
-  "version": "1.8.6",
+  "version": "1.8.7",
   "exe": "https://raw.githubusercontent.com/Dialsoft/macscout-releases/main/MacScout.exe",
   "size": 3799552,
-  "published": "2026-11-09",
-  "sha256": "1FDE6663D8A813302C1EB515D9DE84CC6388FFB04084B1D4BD436209EABFAAFE",
+  "published": "2026-11-10",
+  "sha256": "0BC018687DA8E96EDF014E09D426CFCBC2C62344386CF9357076F592A3517604",
   "notes": "https://github.com/Dialsoft/macscout-releases/blob/main/RELEASE_NOTES.md"
 }

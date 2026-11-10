@@ -6,11 +6,11 @@ By Dialsoft LLC ([dialsoft.com](https://dialsoft.com)), for IT technicians.
 
 ## Download
 
-### [⬇ Download MAC Scout 1.8.6](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
+### [⬇ Download MAC Scout 1.8.7](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
 
-Version 1.8.6 · released November 9, 2026 · 3.6 MB · portable, nothing to install · updates itself
+Version 1.8.7 · released November 10, 2026 · 3.6 MB · portable, nothing to install · updates itself
 
-SHA-256: `1FDE6663D8A813302C1EB515D9DE84CC6388FFB04084B1D4BD436209EABFAAFE` (check with `Get-FileHash MacScout.exe` in PowerShell)
+SHA-256: `0BC018687DA8E96EDF014E09D426CFCBC2C62344386CF9357076F592A3517604` (check with `Get-FileHash MacScout.exe` in PowerShell)
 
 ## System requirements
 
@@ -24,9 +24,9 @@ SHA-256: `1FDE6663D8A813302C1EB515D9DE84CC6388FFB04084B1D4BD436209EABFAAFE` (che
 2. **Scan.** Choose the addresses to scan (your own network is a good start) and press **Scan**. Every device appears with its IP, MAC address, manufacturer and type. A guided tour shows you around on the first start.
 3. **It stays current.** MAC Scout checks this page a few seconds after it starts and every 6 hours. It downloads new versions in the background, checks their SHA-256 fingerprint, and installs them when you close it. You can switch this off in Preferences > Updates.
 
-## What's new in 1.8.6
+## What's new in 1.8.7
 
-- **This computer:** a new box under Method shows the computer MAC Scout runs on - the network interface in use (Ethernet or Wi-Fi, with link speed), its IP address and subnet (DHCP or static), MAC address, default gateway and DNS servers. Click any value to copy it; hover for every detail including other connected adapters; right-click to copy everything. It updates by itself when the network changes (cable unplugged, Wi-Fi switched, VPN connected).
+- **American spelling throughout:** color, gray, license, center, favorite, canceled and so on, in every window, tooltip, message, the release notes, the user manual and the credits page.
 
 [All release notes](RELEASE_NOTES.md)
 
@@ -41,7 +41,7 @@ SHA-256: `1FDE6663D8A813302C1EB515D9DE84CC6388FFB04084B1D4BD436209EABFAAFE` (che
 - A single 3.6 MB program holds everything.
 - It contains the full IEEE manufacturer registry (54,000+ MAC address prefixes).
 - It contains 129 Microsoft Fluent icons, each pre-drawn at 7 sizes so they stay sharp at any display scaling.
-- The SSH library (SSH.NET, MIT licence) is embedded too, loaded straight from memory.
+- The SSH library (SSH.NET, MIT license) is embedded too, loaded straight from memory.
 
 **Network protocols, hand-built**
 - Five ways to find devices: **ARP** (Windows IP Helper API), **NetBIOS** name queries (RFC 1001/1002), **NET API**, **WMI**, and **SNMP v1** with MAC Scout's own encoder and decoder.
@@ -51,8 +51,8 @@ SHA-256: `1FDE6663D8A813302C1EB515D9DE84CC6388FFB04084B1D4BD436209EABFAAFE` (che
 
 **Its own terminal**
 - A VT100/xterm emulator written from scratch drives the telnet and SSH windows.
-- It supports 256-colour and true-colour programs and full-screen apps like top, nano and less.
-- A **BBS mode** uses IBM code page 437, DOS colours and blinking, and draws ANSI art cell-perfect.
+- It supports 256-color and true-color programs and full-screen apps like top, nano and less.
+- A **BBS mode** uses IBM code page 437, DOS colors and blinking, and draws ANSI art cell-perfect.
 
 **Safe self-updates**
 - Every download is checked against the SHA-256 fingerprint published with it.
