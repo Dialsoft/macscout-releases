@@ -6,11 +6,20 @@ By Dialsoft LLC ([dialsoft.com](https://dialsoft.com)), for IT technicians.
 
 ## Download
 
-### [⬇ Download MAC Scout 1.8.7](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
+Version 1.8.8 · released November 11, 2026 · keeps itself up to date
 
-Version 1.8.7 · released November 10, 2026 · 3.6 MB · portable, nothing to install · updates itself
+| | Download | What it is |
+|---|---|---|
+| **Installer** (recommended) | [⬇ MacScout-Setup.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout-Setup.exe) (4.9 MB) | Installs MAC Scout for your Windows account (no administrator password), with Start menu shortcuts for the program and the user manual, an optional desktop shortcut, and an uninstaller in Settings > Apps. |
+| **Portable** | [⬇ MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe) (3.6 MB) | The program as one file, nothing to install. For USB sticks, customer PCs and network shares. |
+| **User manual** | [📄 MacScout-User-Manual.pdf](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout-User-Manual.pdf) | Everything MAC Scout does, step by step, with pictures (also installed with the installer). |
+| **Explainer video** | [▶ MacScout-explainer.mp4](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout-explainer.mp4) | A 1 minute 40 second introduction: what MAC Scout is and who it is for. |
 
-SHA-256: `0BC018687DA8E96EDF014E09D426CFCBC2C62344386CF9357076F592A3517604` (check with `Get-FileHash MacScout.exe` in PowerShell)
+Both versions are the same program and share their settings (`%APPDATA%\MacScout`), so you can switch between them.
+
+SHA-256 fingerprints (check with `Get-FileHash <file>` in PowerShell):
+- MacScout.exe: `1FF9F0743559615161339EFF4652D7CE46D50B5D2EE5A01B8D6B5C29D2207A00`
+- MacScout-Setup.exe: `125F7BFF9C08EEEAD0E43CDEC5AFC0E92037061A9BC723D401F536A66910F360`
 
 ## System requirements
 
@@ -20,13 +29,15 @@ SHA-256: `0BC018687DA8E96EDF014E09D426CFCBC2C62344386CF9357076F592A3517604` (che
 
 ## Getting started
 
-1. **Download and run.** Save MacScout.exe to a folder you can write to, such as Desktop, Documents or `C:\Tools` (not Program Files), so it can update itself. Double-click it. There is no installer.
+1. **Install or run.** Run MacScout-Setup.exe and follow the steps, or save the portable MacScout.exe to a folder you can write to, such as Desktop, Documents or `C:\Tools` (not Program Files), so it can update itself, and double-click it.
 2. **Scan.** Choose the addresses to scan (your own network is a good start) and press **Scan**. Every device appears with its IP, MAC address, manufacturer and type. A guided tour shows you around on the first start.
 3. **It stays current.** MAC Scout checks this page a few seconds after it starts and every 6 hours. It downloads new versions in the background, checks their SHA-256 fingerprint, and installs them when you close it. You can switch this off in Preferences > Updates.
 
-## What's new in 1.8.7
+## What's new in 1.8.8
 
-- **American spelling throughout:** color, gray, license, center, favorite, canceled and so on, in every window, tooltip, message, the release notes, the user manual and the credits page.
+- **New installer:** MacScout-Setup.exe installs MAC Scout for your Windows account (no administrator password), with Start menu shortcuts for the program and the user manual, an optional desktop shortcut, and an uninstaller in Settings > Apps. Uninstalling keeps your locations and history unless you choose to delete them. The portable MacScout.exe is still available for USB sticks and customer PCs.
+- Installed copies keep the version shown in Settings > Apps up to date after updating themselves.
+- New user manual (27 pages) covering the installer, searching the list, the This computer box, automatic updates, sharing and proxy ARP. Also on the download page, with the explainer video.
 
 [All release notes](RELEASE_NOTES.md)
 
@@ -68,8 +79,11 @@ SHA-256: `0BC018687DA8E96EDF014E09D426CFCBC2C62344386CF9357076F592A3517604` (che
 
 | File | What it is |
 |---|---|
-| `MacScout.exe` | The program (the only file you need) |
-| `MacScout.exe.sha256` | Its SHA-256 fingerprint |
+| `MacScout-Setup.exe` | The installer |
+| `MacScout.exe` | The portable program (one file, nothing to install) |
+| `MacScout-User-Manual.pdf` | The user manual |
+| `MacScout-explainer.mp4` | The explainer video |
+| `*.sha256` | SHA-256 fingerprints of the installer and the program |
 | `version.json` | Read by MAC Scout to update itself |
 | `latest.json` | Read by dialsoft.com to show the current version |
 | `RELEASE_NOTES.md` | Every version and what changed |

@@ -2,6 +2,12 @@
 
 Every version of MAC Scout and what changed. Download the latest: [MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
 
+## 1.8.8
+
+- **New installer:** MacScout-Setup.exe installs MAC Scout for your Windows account (no administrator password), with Start menu shortcuts for the program and the user manual, an optional desktop shortcut, and an uninstaller in Settings > Apps. Uninstalling keeps your locations and history unless you choose to delete them. The portable MacScout.exe is still available for USB sticks and customer PCs.
+- Installed copies keep the version shown in Settings > Apps up to date after updating themselves.
+- New user manual (27 pages) covering the installer, searching the list, the This computer box, automatic updates, sharing and proxy ARP. Also on the download page, with the explainer video.
+
 ## 1.8.7
 
 - **American spelling throughout:** color, gray, license, center, favorite, canceled and so on, in every window, tooltip, message, the release notes, the user manual and the credits page.
