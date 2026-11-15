@@ -2,6 +2,10 @@
 
 Every version of MAC Scout and what changed. Download the latest: [MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
 
+## 1.8.9
+
+- **Fixed:** in the Check for updates window, the "Skip this version" button was cut off and sat lower than the other buttons on screens with larger text (125% scaling and up). It now lines up with Download and install and Close, at full size.
+
 ## 1.8.8
 
 - **New installer:** MacScout-Setup.exe installs MAC Scout for your Windows account (no administrator password), with Start menu shortcuts for the program and the user manual, an optional desktop shortcut, and an uninstaller in Settings > Apps. Uninstalling keeps your locations and history unless you choose to delete them. The portable MacScout.exe is still available for USB sticks and customer PCs.
