@@ -2,6 +2,10 @@
 
 Every version of MAC Scout and what changed. Download the latest: [MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
 
+## 1.8.10
+
+- **Fixed:** for a few minutes after a new version was published, Check for updates could still say there was nothing new, because GitHub's download servers briefly hand out their saved copy of the version file. MAC Scout now always asks for the current file, so a new version shows up the moment it is published.
+
 ## 1.8.9
 
 - **Fixed:** in the Check for updates window, the "Skip this version" button was cut off and sat lower than the other buttons on screens with larger text (125% scaling and up). It now lines up with Download and install and Close, at full size.

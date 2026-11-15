@@ -6,7 +6,7 @@ By Dialsoft LLC ([dialsoft.com](https://dialsoft.com)), for IT technicians.
 
 ## Download
 
-Version 1.8.9 · released November 15, 2026 · keeps itself up to date
+Version 1.8.10 · released November 15, 2026 · keeps itself up to date
 
 | | Download | What it is |
 |---|---|---|
@@ -18,8 +18,8 @@ Version 1.8.9 · released November 15, 2026 · keeps itself up to date
 Both versions are the same program and share their settings (`%APPDATA%\MacScout`), so you can switch between them.
 
 SHA-256 fingerprints (check with `Get-FileHash <file>` in PowerShell):
-- MacScout.exe: `1ABB15F17A19E039CD958A9786DC945663295EB91E60CCFCF6A3C1AF92CAF04C`
-- MacScout-Setup.exe: `4F2D8CA40401D30353AA8FB27788FABE8FD72D5AEC426E392DE531EBED1D19A9`
+- MacScout.exe: `97E509787F2C2D4E7D4BBCD938FFD1E35112E4D69C8880973590A07D2E6F20B6`
+- MacScout-Setup.exe: `15A7686315BCE56660FF58A0F7AB3DF50F8E679D86B18361412D1CD5D7A00712`
 
 ## System requirements
 
@@ -33,9 +33,9 @@ SHA-256 fingerprints (check with `Get-FileHash <file>` in PowerShell):
 2. **Scan.** Choose the addresses to scan (your own network is a good start) and press **Scan**. Every device appears with its IP, MAC address, manufacturer and type. A guided tour shows you around on the first start.
 3. **It stays current.** MAC Scout checks this page a few seconds after it starts and every 6 hours. It downloads new versions in the background, checks their SHA-256 fingerprint, and installs them when you close it. You can switch this off in Preferences > Updates.
 
-## What's new in 1.8.9
+## What's new in 1.8.10
 
-- **Fixed:** in the Check for updates window, the "Skip this version" button was cut off and sat lower than the other buttons on screens with larger text (125% scaling and up). It now lines up with Download and install and Close, at full size.
+- **Fixed:** for a few minutes after a new version was published, Check for updates could still say there was nothing new, because GitHub's download servers briefly hand out their saved copy of the version file. MAC Scout now always asks for the current file, so a new version shows up the moment it is published.
 
 [All release notes](RELEASE_NOTES.md)
 
