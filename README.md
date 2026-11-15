@@ -35,7 +35,7 @@ SHA-256 fingerprints (check with `Get-FileHash <file>` in PowerShell):
 
 ## What's new in 1.8.10
 
-- **Fixed:** for a few minutes after a new version was published, Check for updates could still say there was nothing new, because GitHub's download servers briefly hand out their saved copy of the version file. MAC Scout now always asks for the current file, so a new version shows up the moment it is published.
+- Update checks now always ask the server for the current version file and never use a copy saved on the PC or by a proxy. (Right after a release, GitHub itself can still take up to about 5 minutes to start offering the new version.)
 
 [All release notes](RELEASE_NOTES.md)
 
