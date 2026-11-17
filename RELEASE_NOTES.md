@@ -2,6 +2,15 @@
 
 Every version of MAC Scout and what changed. Download the latest: [MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
 
+## 1.9.0
+
+- **Identify devices:** after each scan MAC Scout asks every device what it is, using Bonjour (mDNS), UPnP and the device's own web page, and checks which common services answer. New Model column ("HP LaserJet Pro M404dn", "Samsung QN55Q60") and Services column ("Web, Remote Desktop, SSH"); the Type guess uses them too, so printers, cameras and TVs are recognized even without a telling name. Point at a device for what it said about itself.
+- **Connect to:** right-click a device to open the services it offers - its web page, Remote Desktop, SSH, telnet, shared folders or FTP. Identify again asks a device once more.
+- **Watch mode:** Home > Watch rescans a location every few minutes while MAC Scout is open (5 by default; Preferences > Identify & watch). When a device that has never been seen there joins the network, an alert pops up in the corner of the screen and the taskbar button flashes; click the alert to see the device. A watched tab shows an eye.
+- **Timeline:** right-click a device > Timeline shows when it was online and offline over the last day, week, month or 90 days, how many times it dropped off, and when it was last seen, with a green/red bar and a list of every online and offline period. New Last seen column. Every complete scan adds to it; watch mode makes it detailed.
+- **Wake-on-LAN:** right-click > Wake up sends the magic packet to wake a sleeping or powered-off computer, even one shown as Not found.
+- **New Preferences tab "Identify & watch":** turn identification on or off, choose which ports to check, and set the watch interval. Changes apply at once.
+
 ## 1.8.10
 
 - Update checks now always ask the server for the current version file and never use a copy saved on the PC or by a proxy. (Right after a release, GitHub itself can still take up to about 5 minutes to start offering the new version.)

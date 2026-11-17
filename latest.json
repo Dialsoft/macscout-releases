@@ -1,12 +1,12 @@
 {
-  "version": "1.8.10",
+  "version": "1.9.0",
   "exe": "https://raw.githubusercontent.com/Dialsoft/macscout-releases/main/MacScout.exe",
-  "size": 3801088,
-  "published": "2026-11-15",
-  "sha256": "97E509787F2C2D4E7D4BBCD938FFD1E35112E4D69C8880973590A07D2E6F20B6",
+  "size": 3916288,
+  "published": "2026-11-16",
+  "sha256": "66D0CE84697BB2B45C0BB92B2F161DF359978A7C513864F52A28489F7AFD93CC",
   "setup": "https://raw.githubusercontent.com/Dialsoft/macscout-releases/main/MacScout-Setup.exe",
-  "setupSize": 5129238,
-  "setupSha256": "15A7686315BCE56660FF58A0F7AB3DF50F8E679D86B18361412D1CD5D7A00712",
+  "setupSize": 5234784,
+  "setupSha256": "58FC9022936B9B20B6FFDC493687FF0E1BD30757B2BDA09E63168277D299F90A",
   "manual": "https://raw.githubusercontent.com/Dialsoft/macscout-releases/main/MacScout-User-Manual.pdf",
   "video": "https://raw.githubusercontent.com/Dialsoft/macscout-releases/main/MacScout-explainer.mp4",
   "notes": "https://github.com/Dialsoft/macscout-releases/blob/main/RELEASE_NOTES.md"
