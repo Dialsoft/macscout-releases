@@ -2,6 +2,12 @@
 
 Every version of MAC Scout and what changed. Download the latest: [MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
 
+## 1.9.1
+
+- **Import comments (File menu, or Tools > Import comments):** bring in the device comments you typed over the years in another MAC address tool. Choose its mac_comments.txt (one "MAC=comment" per line) and MAC Scout lists every comment with what will happen to it - new, already the same, or different from yours - before anything changes. Your own comments are kept unless you tick Replace. They show in the Comment column at every location at once.
+- If MAC Scout finds a mac_comments.txt on the PC, it offers once to import it.
+- **Export comments:** saves all your comments to a text file in the same "MAC=comment" layout, as a backup or to move them to another PC.
+
 ## 1.9.0
 
 - **Identify devices:** after each scan MAC Scout asks every device what it is, using Bonjour (mDNS), UPnP and the device's own web page, and checks which common services answer. New Model column ("HP LaserJet Pro M404dn", "Samsung QN55Q60") and Services column ("Web, Remote Desktop, SSH"); the Type guess uses them too, so printers, cameras and TVs are recognized even without a telling name. Point at a device for what it said about itself.

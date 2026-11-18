@@ -6,20 +6,20 @@ By Dialsoft LLC ([dialsoft.com](https://dialsoft.com)), for IT technicians.
 
 ## Download
 
-Version 1.9.0 · released November 16, 2026 · keeps itself up to date
+Version 1.9.1 · released November 18, 2026 · keeps itself up to date
 
 | | Download | What it is |
 |---|---|---|
 | **Installer** (recommended) | [⬇ MacScout-Setup.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout-Setup.exe) (5.0 MB) | Installs MAC Scout for your Windows account (no administrator password), with Start menu shortcuts for the program and the user manual, an optional desktop shortcut, and an uninstaller in Settings > Apps. |
-| **Portable** | [⬇ MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe) (3.7 MB) | The program as one file, nothing to install. For USB sticks, customer PCs and network shares. |
+| **Portable** | [⬇ MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe) (3.8 MB) | The program as one file, nothing to install. For USB sticks, customer PCs and network shares. |
 | **User manual** | [📄 MacScout-User-Manual.pdf](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout-User-Manual.pdf) | Everything MAC Scout does, step by step, with pictures (also installed with the installer). |
 | **Explainer video** | [▶ MacScout-explainer.mp4](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout-explainer.mp4) | A 1 minute 40 second introduction: what MAC Scout is and who it is for. |
 
 Both versions are the same program and share their settings (`%APPDATA%\MacScout`), so you can switch between them.
 
 SHA-256 fingerprints (check with `Get-FileHash <file>` in PowerShell):
-- MacScout.exe: `66D0CE84697BB2B45C0BB92B2F161DF359978A7C513864F52A28489F7AFD93CC`
-- MacScout-Setup.exe: `58FC9022936B9B20B6FFDC493687FF0E1BD30757B2BDA09E63168277D299F90A`
+- MacScout.exe: `D2172C61B87342D39503E38111C4E8FFFEEE7AC67144C3AB977D11BD0F984405`
+- MacScout-Setup.exe: `EED02D28246DE5D95C5942E458ECA6AFCD8AEEB9A70DED94389BCE6739C5376B`
 
 ## System requirements
 
@@ -33,14 +33,11 @@ SHA-256 fingerprints (check with `Get-FileHash <file>` in PowerShell):
 2. **Scan.** Choose the addresses to scan (your own network is a good start) and press **Scan**. Every device appears with its IP, MAC address, manufacturer and type. A guided tour shows you around on the first start.
 3. **It stays current.** MAC Scout checks this page a few seconds after it starts and every 6 hours. It downloads new versions in the background, checks their SHA-256 fingerprint, and installs them when you close it. You can switch this off in Preferences > Updates.
 
-## What's new in 1.9.0
+## What's new in 1.9.1
 
-- **Identify devices:** after each scan MAC Scout asks every device what it is, using Bonjour (mDNS), UPnP and the device's own web page, and checks which common services answer. New Model column ("HP LaserJet Pro M404dn", "Samsung QN55Q60") and Services column ("Web, Remote Desktop, SSH"); the Type guess uses them too, so printers, cameras and TVs are recognized even without a telling name. Point at a device for what it said about itself.
-- **Connect to:** right-click a device to open the services it offers - its web page, Remote Desktop, SSH, telnet, shared folders or FTP. Identify again asks a device once more.
-- **Watch mode:** Home > Watch rescans a location every few minutes while MAC Scout is open (5 by default; Preferences > Identify & watch). When a device that has never been seen there joins the network, an alert pops up in the corner of the screen and the taskbar button flashes; click the alert to see the device. A watched tab shows an eye.
-- **Timeline:** right-click a device > Timeline shows when it was online and offline over the last day, week, month or 90 days, how many times it dropped off, and when it was last seen, with a green/red bar and a list of every online and offline period. New Last seen column. Every complete scan adds to it; watch mode makes it detailed.
-- **Wake-on-LAN:** right-click > Wake up sends the magic packet to wake a sleeping or powered-off computer, even one shown as Not found.
-- **New Preferences tab "Identify & watch":** turn identification on or off, choose which ports to check, and set the watch interval. Changes apply at once.
+- **Import comments (File menu, or Tools > Import comments):** bring in the device comments you typed over the years in another MAC address tool. Choose its mac_comments.txt (one "MAC=comment" per line) and MAC Scout lists every comment with what will happen to it - new, already the same, or different from yours - before anything changes. Your own comments are kept unless you tick Replace. They show in the Comment column at every location at once.
+- If MAC Scout finds a mac_comments.txt on the PC, it offers once to import it.
+- **Export comments:** saves all your comments to a text file in the same "MAC=comment" layout, as a backup or to move them to another PC.
 
 [All release notes](RELEASE_NOTES.md)
 
@@ -52,7 +49,7 @@ SHA-256 fingerprints (check with `Get-FileHash <file>` in PowerShell):
 - Compiled with Microsoft's Roslyn compiler.
 
 **One file, everything inside**
-- A single 3.7 MB program holds everything.
+- A single 3.8 MB program holds everything.
 - It contains the full IEEE manufacturer registry (54,000+ MAC address prefixes).
 - It contains 129 Microsoft Fluent icons, each pre-drawn at 7 sizes so they stay sharp at any display scaling.
 - The SSH library (SSH.NET, MIT license) is embedded too, loaded straight from memory.
