@@ -2,6 +2,10 @@
 
 Every version of MAC Scout and what changed. Download the latest: [MacScout.exe](https://github.com/Dialsoft/macscout-releases/raw/main/MacScout.exe)
 
+## 1.9.2
+
+- Import comments now shows the date of the comment file. If there are several copies of mac_comments.txt on the PC (old versions, backups), they are all listed newest first, each with the date it was last changed, how many comments it holds and its folder, so you can pick the right one. The start-up offer says how many copies were found and uses the newest.
+
 ## 1.9.1
 
 - **Import comments (File menu, or Tools > Import comments):** bring in the device comments you typed over the years in another MAC address tool. Choose its mac_comments.txt (one "MAC=comment" per line) and MAC Scout lists every comment with what will happen to it - new, already the same, or different from yours - before anything changes. Your own comments are kept unless you tick Replace. They show in the Comment column at every location at once.

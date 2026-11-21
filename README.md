@@ -6,7 +6,7 @@ By Dialsoft LLC ([dialsoft.com](https://dialsoft.com)), for IT technicians.
 
 ## Download
 
-Version 1.9.1 · released November 18, 2026 · keeps itself up to date
+Version 1.9.2 · released November 20, 2026 · keeps itself up to date
 
 | | Download | What it is |
 |---|---|---|
@@ -18,8 +18,8 @@ Version 1.9.1 · released November 18, 2026 · keeps itself up to date
 Both versions are the same program and share their settings (`%APPDATA%\MacScout`), so you can switch between them.
 
 SHA-256 fingerprints (check with `Get-FileHash <file>` in PowerShell):
-- MacScout.exe: `D2172C61B87342D39503E38111C4E8FFFEEE7AC67144C3AB977D11BD0F984405`
-- MacScout-Setup.exe: `EED02D28246DE5D95C5942E458ECA6AFCD8AEEB9A70DED94389BCE6739C5376B`
+- MacScout.exe: `AC06228A310176340E43432DD6AD0B19F875185E5B001B79B6A7F5D719F35AB5`
+- MacScout-Setup.exe: `825F98914D6DCEF54DDE697E5F590544AC9FD533D6AD52B2D61916EDCA8B0F26`
 
 ## System requirements
 
@@ -33,11 +33,9 @@ SHA-256 fingerprints (check with `Get-FileHash <file>` in PowerShell):
 2. **Scan.** Choose the addresses to scan (your own network is a good start) and press **Scan**. Every device appears with its IP, MAC address, manufacturer and type. A guided tour shows you around on the first start.
 3. **It stays current.** MAC Scout checks this page a few seconds after it starts and every 6 hours. It downloads new versions in the background, checks their SHA-256 fingerprint, and installs them when you close it. You can switch this off in Preferences > Updates.
 
-## What's new in 1.9.1
+## What's new in 1.9.2
 
-- **Import comments (File menu, or Tools > Import comments):** bring in the device comments you typed over the years in another MAC address tool. Choose its mac_comments.txt (one "MAC=comment" per line) and MAC Scout lists every comment with what will happen to it - new, already the same, or different from yours - before anything changes. Your own comments are kept unless you tick Replace. They show in the Comment column at every location at once.
-- If MAC Scout finds a mac_comments.txt on the PC, it offers once to import it.
-- **Export comments:** saves all your comments to a text file in the same "MAC=comment" layout, as a backup or to move them to another PC.
+- Import comments now shows the date of the comment file. If there are several copies of mac_comments.txt on the PC (old versions, backups), they are all listed newest first, each with the date it was last changed, how many comments it holds and its folder, so you can pick the right one. The start-up offer says how many copies were found and uses the newest.
 
 [All release notes](RELEASE_NOTES.md)
 
